@@ -4,7 +4,7 @@ var app = express()
 var db = require("./database.js")
 
 // Server port
-var HTTP_PORT = 8000 
+var HTTP_PORT = process.env.PORT || 8000 
 // Start server
 app.listen(HTTP_PORT, () => {
     console.log("Server running on port %PORT%".replace("%PORT%",HTTP_PORT))
