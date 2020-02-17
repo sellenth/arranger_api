@@ -1,4 +1,5 @@
 create table arrangements (
+aid INTEGER NOT NULL PRIMARY KEY,
 uid INTEGER,
 x_dim INTEGER,
 y_dim INTEGER,
